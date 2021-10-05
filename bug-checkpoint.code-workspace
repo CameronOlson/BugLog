@@ -1,0 +1,67 @@
+
+{
+  "folders": [
+    {
+      "path": "bug-checkpoint.client",
+      "name": "client"
+    },
+    {
+      "path": "bug-checkpoint",
+      "name": "server"
+    },
+    {
+      "name": "bug-checkpoint",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.suggestSelection": "first",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "files.exclude": {
+      "**/.nyc_*": true,
+      "**/coverage": true,
+      "**/node_modules": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#7ffee6",
+      "activityBar.activeBorder": "#e061fe",
+      "activityBar.background": "#7ffee6",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#e061fe",
+      "activityBarBadge.foreground": "#15202b",
+      "editorGroup.border": "#7ffee6",
+      "panel.border": "#7ffee6",
+      "sash.hoverBorder": "#7ffee6",
+      "sideBar.border": "#7ffee6",
+      "statusBar.background": "#4dfddc",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#1bfcd2",
+      "statusBarItem.remoteBackground": "#4dfddc",
+      "statusBarItem.remoteForeground": "#15202b",
+      "titleBar.activeBackground": "#4dfddc",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#4dfddc99",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#4dfddc"
+  }
+}

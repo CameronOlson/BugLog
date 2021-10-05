@@ -1,0 +1,16 @@
+
+  {
+    "name": "bug-checkpoint",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd bug-checkpoint.client && npm i",
+      "setup:server": "cd bug-checkpoint && npm i",
+      "start": "node bug-checkpoint/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
